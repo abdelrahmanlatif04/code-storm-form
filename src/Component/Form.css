@@ -109,12 +109,14 @@ input::placeholder {
 
 /* Submit Button Styling */
 button {
-  width: 100%;
+  width: 90%;
+  margin: 0 5%;
   padding: 15px;
   border: none;
   border-radius: 20px;
   background-color: rgb(222, 137, 10);
-  color: black;
+  border: 3px solid rgb(222, 137, 10);
+  color: white;
   font-size: 20px;
   font-weight: bold;
   cursor: pointer;
@@ -123,9 +125,9 @@ button {
 }
 
 button:hover {
-  background-color: #b36b00;
+  background-color: transparent;
+  color: rgb(222, 137, 10);
   transform: scale(1.05);
-  box-shadow: 0 8px 15px rgba(255, 166, 0, 0.7);
 }
 
 .error {
