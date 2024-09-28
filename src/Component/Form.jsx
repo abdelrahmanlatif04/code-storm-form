@@ -142,7 +142,7 @@ const CodeStormForm = () => {
   return (
     <div className="wall">
       <form onSubmit={handleSubmit} className="code-storm-form">
-        <h2 className="animated-header">IEEE CodeStorm Competition</h2>
+        <h2 className="animated-header">IEEE CodeStorm 2.1</h2>
         {[
           "name",
           "email",
